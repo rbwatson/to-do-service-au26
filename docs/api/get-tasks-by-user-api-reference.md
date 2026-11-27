@@ -1,9 +1,9 @@
 ---
 layout: default
 title: "Get tasks by user ID"
-parent: API reference
+parent: task resource
 nav_order: 20
-description: "Reference for retrieving To-Do Service tasks assigned to a specified user using the userId query parameter."
+description: "Reference for retrieving To-Do Service tasks assigned to a specified user using the `userId` query parameter."
 topic_type: reference
 tags:
   - api
@@ -64,7 +64,7 @@ Host: localhost:3000
 Accept: application/json
 ```
 
-### cURL
+### `cURL`
 
 ```bash
 curl -i -X GET "http://localhost:3000/tasks?userId=5" \
@@ -75,7 +75,7 @@ curl -i -X GET "http://localhost:3000/tasks?userId=5" \
 
 1. Create a new **GET** request.
 2. Enter `http://localhost:3000/tasks` in the URL field.
-3. Open **Params**, enter `userId` as the key and `5` as the value (or use your actual user ID).
+3. Open **`Params`**, enter `userId` as the key and `5` as the value (or use your actual user ID).
 4. Click **Send**.
 
 ## Successful response
